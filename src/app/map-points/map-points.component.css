@@ -1,0 +1,26 @@
+#viewDiv {
+    padding: 0;
+    margin: 0;
+    /* height: 1000%;
+    width: 100%; */
+  }
+  
+  ::ng-deep .esri-attribution__sources.esri-interactive,
+  ::ng-deep .esri-attribution__powered-by,
+  ::ng-deep .esri-popup__navigation {
+    display: none !important;
+  }
+  
+  ::ng-deep .esri-view-width-xsmall .esri-popup--is-docked-bottom-center .esri-popup__main-container {
+    left: 7px;
+    right: 0;
+    bottom: 0;
+    max-height: 200px;
+    top: 10px;
+    max-width: 90%;
+  }
+  div {
+    height: 900px !important;
+    /* border: 1px solid black; */
+  }
+  
